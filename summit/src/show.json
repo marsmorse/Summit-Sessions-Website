@@ -1,0 +1,79 @@
+{"Shows":
+  [{
+    "headliner": {
+      "name":"Sharif Hassan",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/Sharif_Hassan.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Sharif Hassan",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/Sharif_Hassan.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+
+  {
+    "headliner": {
+      "name":"Sharif Hassan",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/Sharif_Hassan.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  }
+]
+}
