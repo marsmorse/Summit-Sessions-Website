@@ -60,3 +60,16 @@
         scroll-snap-align: start;
     
     }
+
+  /*
+    social bar 
+*/
+.right {
+  justify-self: flex-end;
+}
+.icon-sm {
+
+}
+.icon-md {
+
+}

@@ -2,38 +2,20 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';
 import './Show.css';
-
+import './format.js';
+import { formatDate } from './format.js';
 
 class Show extends React.Component {
     constructor(props) {
       super(props);
       this.state = { 
           date: new Date('August 8, 2020 19:00:00'),
-          flipped: false
+          upcoming: false
           };
     }
+
     render() {
-      var dateLine = '';
-      if (this.state.upcoming === true) {
-        dateLine = this.state.date.getDate() + '/' + this.state.date.getDay() + '/' + this.state.date.getFullYear();
-        let date = this.state.date.getDate() + '/' + this.state.date.getDay() + '/' + this.state.date.getFullYear();
-        this.date = date
-      }else{
-        let date = this.state.date.getDate() + '/' + this.state.date.getDay() + '/' + this.state.date.getFullYear();
-        let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-        let dayofWeek = days[this.state.date.getDay()];
-        let hours = 0;
-        let ampm = (this.state.date.getHours() >=12 && this.state.date.getHours() <24) ? "pm" : "am";
-        if(this.state.date.getHours()%12 === 0){
-          hours = 12;
-        }else{
-          hours = ((this.state.date.getHours()<12) ? this.state.date.getHours(): this.state.date.getHours() - 12)
-        }
-       // hours = ((this.state.date.getHours()<12) ? hours = this.state.date.getHours(): hours = this.state.date.getHours() - 12)
-        let time = hours + ":" + ((this.state.date.getMinutes()<10) ? "0": "") + this.state.date.getMinutes();
-        dateLine = dayofWeek + ' ' + date + ', ' + time + ampm;
-      }
-  
+      var dateLine = formatDate(this.state.date, this.state.upcoming);
       return(
         <div className="card">
           <img className="artist-photo" src={this.props.img_path} alt="artist"/>
