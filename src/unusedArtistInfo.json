@@ -1,0 +1,331 @@
+    
+    {
+"artists":[
+    {
+    "headliner": {
+      "name":"JoeeBilli",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/joeybi.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Jetpack Jones",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/jetpack.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+
+  {
+    "headliner": {
+      "name":"Tone Oliver",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/toneoliver.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Trevor James",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/trevJames.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Saheer",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/Saheer.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Wyatt Starks",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/wyattstarks.jpeg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Pretty Pape$",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/ppapes.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Kyle Capricorn",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/capricorn.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Chow Mane",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/chowmane.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Baca",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/baca.jpg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Dame Drummer",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/damedrummer.jpeg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Jenn Clemena",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/jenn.jpeg",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  },
+  {
+    "headliner": {
+      "name":"Rocky G x Nuglife",
+      "link": "https://www.instagram.com/sharif_hassan_/",
+      "guests": [
+         {
+          "name":"BACA",
+          "link": "https://www.instagram.com/bacaveli/"
+        }
+        ]
+    },
+    "warmups":[
+        {
+            "name":"BACA",
+            "link": "https://www.instagram.com/bacaveli/",
+            "guests": []
+        }
+    ],
+    "img_path":"./pics/Artist_photos/rockynug.png",
+    "youtube_link":"https://www.youtube.com/watch?v=XNlLnM9GhHA",
+    "day": 13,
+    "month": 4,
+    "year": 2020,
+    "time": 19.0
+  }
+]
+}
