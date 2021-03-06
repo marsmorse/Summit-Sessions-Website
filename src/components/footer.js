@@ -1,7 +1,7 @@
 import React from 'react';
 import SocialBar from './social.js';
 import NeonHeader from './text.js';
-import LigtBar from './light_bar.js'
+import LightBar from './light_bar.js'
 /**
  * returns the footer
  * @constructor
@@ -9,9 +9,11 @@ import LigtBar from './light_bar.js'
  */
 function Footer() {
     return(
+        <div>
+        <LightBar width='100%' />
         <div id="footer-cont">
-            <NeonHeader ml='20' content="SUMMIT SESSIONS" size='3'/>
-            <LigtBar width='100%' margin="ml-20"/>
+            <NeonHeader margins='ml-30' content="SUMMIT SESSIONS" size='3'/>
+            <LightBar width='100%' />
             <div className="f split" id="footer-body">
                     <div className="f">
                         <NeonHeader margins="mr-30" content="About" size='link' link='/About'/>
@@ -21,6 +23,7 @@ function Footer() {
                     <SocialBar/>
             </div>
             
+        </div>
         </div>
     )
 }

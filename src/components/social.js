@@ -4,7 +4,7 @@ function SocialBar(props) {
     
     return(
         <div className="f" id="social-box">
-                <a className="header-cont mr-30" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/summitsessionsofficial">
+                <a className="header-cont mr-40" target="_blank" rel="noopener noreferrer" href="https://www.twitch.tv/summitsessions">
                     <svg className="headerlayer1" width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.949219 6.31204V29.9619H9.09364V34.3975H13.5406L17.9804 29.9605H24.6458L33.534 21.095V0.397461H3.16914L0.949219 6.31204ZM6.13139 3.35121H30.5717V19.6131L25.3867 24.7868H17.2395L12.7996 29.2167V24.7868H6.13139V3.35121Z" fill="white"/>
                         <path d="M14.2773 9.26953H17.2382V18.1379H14.2773V9.26953Z" fill="white"/>
@@ -16,7 +16,7 @@ function SocialBar(props) {
                         <path d="M22.4258 9.26953H25.388V18.1379H22.4258V9.26953Z" fill="white"/>
                     </svg>
                 </a>
-                <a className="header-cont mr-30" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/summitsessionsofficial">
+                <a className="header-cont mr-40" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/summitsessionsofficial">
                     <svg className="headerlayer1" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M32.1229 0H1.87708C0.841146 0 0 0.841146 0 1.87708V32.1229C0 33.1589 0.841146 34 1.87708 34H17V20.5417H12.9359V15.5833H17V11.9177C17 7.52604 20.0458 5.13542 23.9682 5.13542C25.8453 5.13542 27.8641 5.27708 28.3333 5.33906V9.92552H25.2078C23.074 9.92552 22.6667 10.9349 22.6667 12.4224V15.5833H27.749L27.0849 20.5417H22.6667V34H32.1229C33.1589 34 34 33.1589 34 32.1229V1.87708C34 0.841146 33.1589 0 32.1229 0Z" fill="white"/>
                     </svg>
@@ -24,7 +24,7 @@ function SocialBar(props) {
                         <path d="M32.1229 0H1.87708C0.841146 0 0 0.841146 0 1.87708V32.1229C0 33.1589 0.841146 34 1.87708 34H17V20.5417H12.9359V15.5833H17V11.9177C17 7.52604 20.0458 5.13542 23.9682 5.13542C25.8453 5.13542 27.8641 5.27708 28.3333 5.33906V9.92552H25.2078C23.074 9.92552 22.6667 10.9349 22.6667 12.4224V15.5833H27.749L27.0849 20.5417H22.6667V34H32.1229C33.1589 34 34 33.1589 34 32.1229V1.87708C34 0.841146 33.1589 0 32.1229 0Z" fill="white"/>
                     </svg>
                 </a>
-                <a className="header-cont mr-30" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/summit_sessions/">
+                <a className="header-cont mr-40" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/summit_sessions/">
                     <svg className="headerlayer1" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M22.5625 2.875C24.3016 2.875 25.9504 3.56406 27.1973 4.80273C28.4441 6.04141 29.125 7.69844 29.125 9.4375V22.5625C29.125 24.3016 28.4359 25.9504 27.1973 27.1973C25.9586 28.4441 24.3016 29.125 22.5625 29.125H9.4375C7.69844 29.125 6.04961 28.4359 4.80273 27.1973C3.55586 25.9586 2.875 24.3016 2.875 22.5625V9.4375C2.875 7.69844 3.56406 6.04961 4.80273 4.80273C6.04141 3.55586 7.69844 2.875 9.4375 2.875H22.5625ZM22.5625 0.25H9.4375C4.38438 0.25 0.25 4.38438 0.25 9.4375V22.5625C0.25 27.6156 4.38438 31.75 9.4375 31.75H22.5625C27.6156 31.75 31.75 27.6156 31.75 22.5625V9.4375C31.75 4.38438 27.6156 0.25 22.5625 0.25Z" fill="white"/>
                         <path d="M24.5312 9.4375C23.4402 9.4375 22.5625 8.55977 22.5625 7.46875C22.5625 6.37773 23.4402 5.5 24.5312 5.5C25.6141 5.5 26.5 6.37773 26.5 7.46875C26.5 8.55977 25.6141 9.4375 24.5312 9.4375ZM16 10.75C18.8957 10.75 21.25 13.1043 21.25 16C21.25 18.8957 18.8957 21.25 16 21.25C13.1043 21.25 10.75 18.8957 10.75 16C10.75 13.1043 13.1043 10.75 16 10.75ZM16 8.125C11.6523 8.125 8.125 11.6523 8.125 16C8.125 20.3477 11.6523 23.875 16 23.875C20.3477 23.875 23.875 20.3477 23.875 16C23.875 11.6523 20.3477 8.125 16 8.125Z" fill="white"/>
@@ -34,7 +34,7 @@ function SocialBar(props) {
                         <path d="M24.5312 9.4375C23.4402 9.4375 22.5625 8.55977 22.5625 7.46875C22.5625 6.37773 23.4402 5.5 24.5312 5.5C25.6141 5.5 26.5 6.37773 26.5 7.46875C26.5 8.55977 25.6141 9.4375 24.5312 9.4375ZM16 10.75C18.8957 10.75 21.25 13.1043 21.25 16C21.25 18.8957 18.8957 21.25 16 21.25C13.1043 21.25 10.75 18.8957 10.75 16C10.75 13.1043 13.1043 10.75 16 10.75ZM16 8.125C11.6523 8.125 8.125 11.6523 8.125 16C8.125 20.3477 11.6523 23.875 16 23.875C20.3477 23.875 23.875 20.3477 23.875 16C23.875 11.6523 20.3477 8.125 16 8.125Z" fill="white"/>
                     </svg>
                 </a>
-                <a className="header-cont mr-30" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC23U42FV0_fQe-cE48JoHMQ">
+                <a className="header-cont" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC23U42FV0_fQe-cE48JoHMQ">
                     <svg className="headerlayer1" width="44" height="28" viewBox="0 0 44 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M34.8618 0.555664H9.13824C4.09132 0.555664 0 4.08908 0 8.44778V19.5533C0 23.912 4.09132 27.4454 9.13824 27.4454H34.8618C39.9087 27.4454 44 23.912 44 19.5533V8.44778C44 4.08908 39.9087 0.555664 34.8618 0.555664ZM28.6816 14.5409L16.6499 19.4968C16.3293 19.6288 15.959 19.427 15.959 19.1202V8.89867C15.959 8.58758 16.339 8.38596 16.6603 8.52658L28.692 13.7922C29.0498 13.9488 29.0436 14.3918 28.6816 14.5409Z" fill="white"/>    
                     </svg>

@@ -115,17 +115,13 @@ class Shows extends React.Component {
         console.log(this.state.maxPageCount);
         return(
             <div className="body-cont">
-
                 <div className="shows-cont">
-                    {showData.Shows.filter((show, index) => {
-                        return((index >= ((this.state.page * this.SHOWS_PER_PAGE) - this.SHOWS_PER_PAGE)) && (index < (this.state.page * this.SHOWS_PER_PAGE))); 
-                    }).map((show, index) => {
+                    {showData.Shows.map((show, index) => {
                           return(
                               <Artist key={index} {...show}/>
                           )
                     })}
                 </div>
-                {(this.state.maxPageCount > 1) ? this.PageNav(): null}
             </div>
         )
     }

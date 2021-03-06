@@ -101,7 +101,7 @@ class TopNav extends React.Component {
                     <LightBar/>
                     <NeonHeader clickBehavior={() => {this.toggleMenu('Shows');}} size="a" link="https://docs.google.com/forms/d/e/1FAIpQLSdz3F22O1Wfln-ezUgNhti6nKG24VsO_WYIlJQZVxH1rczq4g/viewform" content="SUBMIT"/>
                 </div>
-                <LightBar width='100%'/>
+                <LightBar width='100%' margins="ml-20"/>
                 
                 </div>
                 <LightBar width='100%'/>
