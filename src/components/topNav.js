@@ -2,6 +2,7 @@ import React from 'react';
 import NeonHeader from './text.js';
 import {useHistory} from "react-router-dom";
 import LightBar from './light_bar.js';
+import config from '../config';
 
 class TopNav extends React.Component {
     constructor(props) {
@@ -64,7 +65,7 @@ class TopNav extends React.Component {
     clickableLogo() {
         const history = useHistory();
         return(
-            <div className="f" onClick={() => {history.push('/Shows')}}>
+            <div className="f" onClick={() => {history.push('/')}}>
                 <img src="./assets/logo.png" alt="Summit Sessions Logo" className="mr-20" />
                 <NeonHeader size="1" content="SUMMIT SESSIONS"/>
             </div>
@@ -75,6 +76,9 @@ class TopNav extends React.Component {
         this.setState({page: v})
     }
     DesktopMenu() {
+        console.log(process.env.SIGNUP_LINK);
+        console.log(process.env.NODE_ENV);
+        console.log(process.env.REACT_APP_SIGNUP_LINK);
         return(
             <nav className="nav-bar" id="nav-bar-desktop">
                 <div className='f nav-cont'>
@@ -95,7 +99,7 @@ class TopNav extends React.Component {
                 </div>
                 <div className="f">
                     <LightBar/>
-                    <NeonHeader clickBehavior={() => {this.toggleMenu('Shows');}} size="a" link="https://docs.google.com/forms/d/e/1FAIpQLSdz3F22O1Wfln-ezUgNhti6nKG24VsO_WYIlJQZVxH1rczq4g/viewform" content="SIGN UP"/>
+                    <NeonHeader clickBehavior={() => {this.toggleMenu('Shows');}} size="a" link="https://docs.google.com/forms/d/e/1FAIpQLSdz3F22O1Wfln-ezUgNhti6nKG24VsO_WYIlJQZVxH1rczq4g/viewform" content="SUBMIT"/>
                 </div>
                 <LightBar width='100%'/>
                 
@@ -118,13 +122,13 @@ class TopNav extends React.Component {
                 </nav>
                 <div className="mobile-menu" id={(this.state.isMenuOpen) ? 'show-off-screen': null}>
                     <LightBar width='100%' margins='mb-30'/>
-                    <NeonHeader click_behavior={() => { this.toggleMenu();this.updatePage('Shows'); }} size="link" link="/Shows" color={(this.state.page === 'Shows') ? "red": null} content="ARTISTS"/>
+                    <NeonHeader click_behavior={() => { this.toggleMenu();this.updatePage('Shows'); }} size="link" link="/Shows" color={(this.state.page === 'Shows') ? "red": null} content="SHOWS"/>
                     <LightBar width='100%' margins='mb-30 mt-30'/>
                     <NeonHeader click_behavior={() => { this.toggleMenu();this.updatePage('About'); }} size="link" link="/About" color={(this.state.page === 'About') ? "red": null} content="ABOUT"/>
                     <LightBar width='100%' margins='mb-30 mt-30'/>
-                    <NeonHeader click_behavior={ this.toggleMenu } size="a" link="mailto:info@summitsessionsofficial.com" content="CONTACT"/>
+                    <NeonHeader click_behavior={ this.toggleMenu } size="a" link={config.mailLink} content="CONTACT"/>
                     <LightBar width='100%' margins='mb-30 mt-30'/>
-                    <NeonHeader click_behavior={ this.toggleMenu } size="a" link="https://docs.google.com/forms/d/e/1FAIpQLSdz3F22O1Wfln-ezUgNhti6nKG24VsO_WYIlJQZVxH1rczq4g/viewform" color={(this.state.page === 'Submit') ? "red": null} content="SIGN UP"/>
+                    <NeonHeader click_behavior={ this.toggleMenu } size="a" link={config.signupLink} color={(this.state.page === 'Submit') ? "red": null} content="SIGN UP"/>
                     <LightBar width='100%' margins='mt-30'/>            
                 </div>
             </section>

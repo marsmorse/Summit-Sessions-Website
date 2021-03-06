@@ -7,16 +7,17 @@ import Footer from './components/footer.js'
 import Shows from './components/shows.js';
 import Contact from './components/contact.js';
 import SignUpBox from './components/signupbox.js';
+import HomePage from './pages/homepage';
 
 function App() {
     return(
-        <div>
-            <TopNav/>
-            <Route exact path="/"><Hero/><SignUpBox/><Shows/></Route>
-            <Route path="/Shows"><Redirect to="/"/></Route>
-            <Route path="/About"><About/></Route>
-            <Route path="/Contact"><Contact/></Route>
-            <Footer/>
+        <div id='app'>
+            
+            <Route exact path="/"><HomePage/></Route>
+            <Route path="/Shows"><TopNav/><Hero/><SignUpBox/><Shows/><Footer/></Route>
+            <Route path="/About"><TopNav/><About/><Footer/></Route>
+            <Route path="/Contact"><Contact/><Footer/></Route>
+            
         </div>
     )
 }

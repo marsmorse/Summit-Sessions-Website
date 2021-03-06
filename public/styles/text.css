@@ -32,6 +32,10 @@ p{
     display: grid;
     justify-content: center;
   }
+  .inline-header-cont {
+    display: inline-grid;
+    justify-content: center;
+  }
   .header-cont > a {
     white-space: nowrap;
   }

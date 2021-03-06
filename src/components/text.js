@@ -21,7 +21,7 @@ function NeonHeader(props) {
         )
     } else if (props.size === '3') {
         return(
-            <div className={`ml-${props.ml} header-cont`}>
+            <div className={`header-cont`}>
                 <h3 className={`${props.color}l1 ${props.margins}  headerlayer1`}>{props.content}</h3>
                 <h3 className={`${props.color}l2 ${props.margins}  headerlayer2`}>{props.content}</h3>
                 <h3 className={`${props.color}l3 ${props.margins}  headerlayer3`}>{props.content}</h3>
@@ -37,7 +37,7 @@ function NeonHeader(props) {
         )
     } else if (props.size === 'a') {
         return(
-            <div className="header-cont mr-20">
+            <div className="header-cont">
                 <a className={`${props.color}l1 ${props.margins} headerlayer1`} target="_blank" rel="noopener noreferrer" href={props.link}>{props.content}</a>
                 <a className={`${props.color}l2 ${props.margins} headerlayer2`} target="_blank" rel="noopener noreferrer" href={props.link}>{props.content}</a>
                 <a className={`${props.color}l3 ${props.margins} headerlayer3`} target="_blank" rel="noopener noreferrer" href={props.link}>{props.content}</a>
