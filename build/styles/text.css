@@ -1,0 +1,81 @@
+/*
+  Headers
+*/
+p{
+  color:#C9C9C9;
+}
+    h1 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+  
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    h1, h2, h3, h4, h5 {
+        margin: 0;
+        white-space: nowrap;
+    }
+  
+  .header-cont{
+    display: grid;
+    justify-content: center;
+  }
+  .inline-header-cont {
+    display: inline-grid;
+    justify-content: center;
+  }
+  .header-cont > a {
+    white-space: nowrap;
+  }
+  .headerlayer1, .headerlayer2, .headerlayer3 {
+    grid-column: 1;
+    grid-row: 1;
+    
+  }
+  .headerlayer1 {
+    z-index: 3;
+}
+  .headerlayer2 {
+    z-index: 2;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+  .headerlayer3 {
+    z-index: 1;
+    opacity: 60%;
+    filter: blur(8px);
+    -webkit-filter: blur(20px);
+  }
+  
+  .redl1 {
+    color: #ebb2b2;
+  }
+  .redl2 {
+    color: #e09898;
+  }
+  .redl3 {
+    color: #b8697a;
+  }
+  /*
+    Text 
+    font-family: 'Padauk', sans-serif;
+  */
+  p {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 168.2%;
+  }

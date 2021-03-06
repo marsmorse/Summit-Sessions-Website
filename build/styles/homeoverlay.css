@@ -1,0 +1,36 @@
+
+.overlay-cont {
+    position: absolute;
+    z-index: 11;
+    background-color: #111111b9;
+    backdrop-filter: blur(2px);
+    width: 50;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage-cont {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info {
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+#overlay-social-box {
+    align-self: center;
+}
+.col-center {
+    align-items: center;
+}
+
+.home-nav {
+    align-self: center;
+}

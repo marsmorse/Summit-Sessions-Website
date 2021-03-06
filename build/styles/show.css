@@ -1,0 +1,134 @@
+.card{
+    display: inline-block;
+    vertical-align: top;
+    scroll-snap-align: center;
+    
+    margin-right: 60px;
+    margin-left: 50px;  
+}
+.card:last-child{
+    border-right: 35px solid #111111;
+}
+#blur-l1 {
+  filter:blur(5px);
+  -webkit-filter:blur(5px);
+}
+
+/*
+  Card
+*/
+
+  .date-card{
+      color:#86CFF9
+    }
+    #show-headliner{
+      font-size:20px;
+  
+    }
+    .guest, .warmup {
+      font-weight: normal;
+      font-style: italic;
+    }
+    .guest{
+      color:white;
+    }
+    .warmup-guest {
+      color:#EFEFEF;
+    }
+    .warmup {
+      color:#b6b5b5
+    }
+    .headliner-guest{
+      font-size: 14;
+      display:inline-block;
+    }
+    .headliner, .headliner-guest {
+      font-style: italic;
+      display: inline-block;
+      color:#EFEFEF;
+    }
+/*
+  Front Card
+*/
+.artist-name-bg {
+  background-color: #111111;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  padding: 15px 30px;
+}
+/*
+    slideshow 
+*/
+.artist-photo{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.show-cont {
+  height: auto;
+  max-width: 100%;
+  max-height: 350px;
+  overflow-y: hidden;
+  position: relative;
+}
+    .shows-cont {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px 0px;
+        scroll-snap-align: start;
+    }
+  /*
+    page nav bar 
+*/
+.pageNav {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: center;
+  margin: 30px 0;
+}
+.pageNav > * {
+  margin: 0 12px;
+}
+  /*
+    social bar 
+*/
+.right {
+  justify-self: flex-end;
+}
+.icon-sm {
+
+}
+.icon-md {
+
+}
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px)  { 
+  .show-cont {
+    
+  }
+ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  { 
+  .shows-cont {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  { 
+  
+ }
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) { 
+  .shows-cont {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+ }
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {  }
