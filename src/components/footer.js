@@ -18,7 +18,7 @@ function Footer() {
                     <div className="f">
                         <NeonHeader margins="mr-30" content="About" size='link' link='/About'/>
                         <NeonHeader margins="mr-30" content="Contact" size='a' link='mailto:info@summitsessionsofficial.com'/>
-                        <NeonHeader margins="mr-30" content="SIGN UP" size='a' link='https://docs.google.com/forms/d/e/1FAIpQLSdz3F22O1Wfln-ezUgNhti6nKG24VsO_WYIlJQZVxH1rczq4g/viewform'/>
+                        <NeonHeader margins="mr-30" content="SUBMIT" size='a' link='https://docs.google.com/forms/d/e/1FAIpQLSdz3F22O1Wfln-ezUgNhti6nKG24VsO_WYIlJQZVxH1rczq4g/viewform'/>
                     </div>
                     <SocialBar/>
             </div>
