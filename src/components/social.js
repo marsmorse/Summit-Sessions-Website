@@ -5,6 +5,18 @@ function SocialBar(props) {
     return(
         <div className="f" id="social-box">
                 <a className="header-cont mr-30" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/summitsessionsofficial">
+                    <svg className="headerlayer1" width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.949219 6.31204V29.9619H9.09364V34.3975H13.5406L17.9804 29.9605H24.6458L33.534 21.095V0.397461H3.16914L0.949219 6.31204ZM6.13139 3.35121H30.5717V19.6131L25.3867 24.7868H17.2395L12.7996 29.2167V24.7868H6.13139V3.35121Z" fill="white"/>
+                        <path d="M14.2773 9.26953H17.2382V18.1379H14.2773V9.26953Z" fill="white"/>
+                        <path d="M22.4258 9.26953H25.388V18.1379H22.4258V9.26953Z" fill="white"/>
+                    </svg>
+                    <svg className="headerlayer2" width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.949219 6.31204V29.9619H9.09364V34.3975H13.5406L17.9804 29.9605H24.6458L33.534 21.095V0.397461H3.16914L0.949219 6.31204ZM6.13139 3.35121H30.5717V19.6131L25.3867 24.7868H17.2395L12.7996 29.2167V24.7868H6.13139V3.35121Z" fill="white"/>
+                        <path d="M14.2773 9.26953H17.2382V18.1379H14.2773V9.26953Z" fill="white"/>
+                        <path d="M22.4258 9.26953H25.388V18.1379H22.4258V9.26953Z" fill="white"/>
+                    </svg>
+                </a>
+                <a className="header-cont mr-30" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/summitsessionsofficial">
                     <svg className="headerlayer1" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M32.1229 0H1.87708C0.841146 0 0 0.841146 0 1.87708V32.1229C0 33.1589 0.841146 34 1.87708 34H17V20.5417H12.9359V15.5833H17V11.9177C17 7.52604 20.0458 5.13542 23.9682 5.13542C25.8453 5.13542 27.8641 5.27708 28.3333 5.33906V9.92552H25.2078C23.074 9.92552 22.6667 10.9349 22.6667 12.4224V15.5833H27.749L27.0849 20.5417H22.6667V34H32.1229C33.1589 34 34 33.1589 34 32.1229V1.87708C34 0.841146 33.1589 0 32.1229 0Z" fill="white"/>
                     </svg>
