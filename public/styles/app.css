@@ -21,10 +21,6 @@ html {
   margin: 0;
   padding: 0;
 }
-p {
-  line-height: 100;
-
-}
 body {
   margin: 0;
   height: 100%;
@@ -40,10 +36,7 @@ body {
   font-family: 'Roboto-Black';
   src: url('./fonts/Roboto-Black.ttf');
 }
-@font-face {
-  font-family: 'LibSansBold';
-  src: url('./fonts/LiberationSans-Bold.ttf');
-}
+
 
 
 a{

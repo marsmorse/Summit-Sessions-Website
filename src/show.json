@@ -2,8 +2,29 @@
   [
     {
       "headliner": {
+        "name":"Kaly Jay",
+        "link": "https://www.youtube.com/watch?v=QMba3EM_02U"
+      },
+      "img_path":"./assets/artist-photos/iansantillano.jpg"
+    },
+    {
+      "headliner": {
+        "name":"Amon",
+        "link": "https://www.youtube.com/watch?v=YClrEzeqGUU"
+      },
+      "img_path":"./assets/artist-photos/iansantillano.jpg"
+    },
+    {
+      "headliner": {
+        "name":"Cody Benjamin",
+        "link": "https://www.youtube.com/watch?v=2CG-1iorO30"
+      },
+      "img_path":"./assets/artist-photos/iansantillano.jpg"
+    },
+    {
+      "headliner": {
         "name":"Ian Santillano",
-        "link": "https://www.youtube.com/watch?v=QmgHdMsvYcI&t=2545s"
+        "link": "https://www.youtube.com/watch?v=QmgHdMsvYcI"
       },
       "img_path":"./assets/artist-photos/iansantillano.jpg"
     },
@@ -17,14 +38,14 @@
     {
       "headliner": {
         "name":"Emma Gerson",
-        "link": "https://www.youtube.com/watch?v=TpfUsoLGWMg"
+        "link": "https://www.youtube.com/watch?v=5Qg1z4kvpRE"
       },
       "img_path":"./assets/artist-photos/emmagerson.jpg"
     },
     {
       "headliner": {
         "name":"Seiji Oda",
-        "link": "https://www.youtube.com/watch?v=b6b4YJTCtd0&t=1157s"
+        "link": "https://www.youtube.com/watch?v=b6b4YJTCtd0"
       },
       "img_path":"./assets/artist-photos/seijioda.jpg"
     },
@@ -66,21 +87,21 @@
   {
     "headliner": {
       "name":"JoeeBilli",
-      "link": "https://www.youtube.com/watch?v=VGURPv5Bnbg&t=196s"
+      "link": "https://www.youtube.com/watch?v=VGURPv5Bnbg"
     },
     "img_path":"./assets/artist-photos/JoeeBilli.jpg"
   },
   {
     "headliner": {
       "name":"7Records",
-      "link": "https://www.youtube.com/watch?v=kmb-xDbViGY&t=717s"
+      "link": "https://www.youtube.com/watch?v=kmb-xDbViGY"
     },
     "img_path":"./assets/artist-photos/7records.jpeg"
   },
   {
     "headliner": {
       "name":"Chow Mane",
-      "link": "https://www.youtube.com/watch?v=HRDMrM2NO54&t=1087s"
+      "link": "https://www.youtube.com/watch?v=HRDMrM2NO54"
     },
     "img_path":"./assets/artist-photos/ChowMane.jpg"
   },
@@ -108,21 +129,21 @@
   {
     "headliner": {
       "name":"Jenn Clemena",
-      "link": "https://www.youtube.com/watch?v=Fk3nKX6IW7g&t=1390s"
+      "link": "https://www.youtube.com/watch?v=Fk3nKX6IW7g"
     },
     "img_path":"./assets/artist-photos/JennClemena.jpg"
   },
   {
     "headliner": {
       "name":"Ozer",
-      "link": "https://www.youtube.com/watch?v=aDpliuo1Nvo&t=593s"
+      "link": "https://www.youtube.com/watch?v=aDpliuo1Nvo"
     },
     "img_path":"./assets/artist-photos/Ozer.jpg"
   },
   {
     "headliner": {
       "name":"Savage Mind",
-      "link": "https://www.youtube.com/watch?v=KXK8CPLVoEo&t=396s"
+      "link": "https://www.youtube.com/watch?v=KXK8CPLVoEo"
     },
     "img_path":"./assets/artist-photos/SavageMind.jpg"
   },
@@ -143,21 +164,21 @@
   {
     "headliner": {
       "name":"Dame Drummer",
-      "link": "https://www.youtube.com/watch?v=tX9vznLPAqs&t=2617s"
+      "link": "https://www.youtube.com/watch?v=tX9vznLPAqs"
     },
     "img_path":"./assets/artist-photos/damedrummer.jpg"
   },
   {
     "headliner": {
       "name":"Pretty Pape$",
-      "link": "https://www.youtube.com/watch?v=ecqWtdGBniM&t=1s"
+      "link": "https://www.youtube.com/watch?v=ecqWtdGBniM"
     },
     "img_path":"./assets/artist-photos/prettypapes.jpg"
   },
   {
     "headliner": {
       "name":"Jordan Webb",
-      "link": "https://www.youtube.com/watch?v=oCCC3wNJBGc&t=35s"
+      "link": "https://www.youtube.com/watch?v=oCCC3wNJBGc"
     },
     "img_path":"./assets/artist-photos/jordan.jpg"
   },
@@ -171,7 +192,7 @@
   {
     "headliner": {
       "name":"Santos Soul",
-      "link": "https://www.youtube.com/watch?v=RU-TkoiEGKI&t=1s"
+      "link": "https://www.youtube.com/watch?v=RU-TkoiEGKI"
     },
     "img_path":"./assets/artist-photos/SantosSoul.jpg"
   },
@@ -192,14 +213,14 @@
   {
     "headliner": {
       "name":"Tone Oliver",
-      "link": "https://www.youtube.com/watch?v=WXW2D6qHRWo&t=51s"
+      "link": "https://www.youtube.com/watch?v=WXW2D6qHRWo"
     },
     "img_path":"./assets/artist-photos/toneoliver.jpg"
   },
   {
     "headliner": {
       "name":"K.I.D",
-      "link": "https://www.youtube.com/watch?v=O7iHAijr4PI&t=1723s"
+      "link": "https://www.youtube.com/watch?v=O7iHAijr4PI"
     },
     "img_path":"./assets/artist-photos/kid.jpg"
   },
@@ -213,7 +234,7 @@
   {
     "headliner": {
       "name":"Jetpack Jones ft. Tone Oliver",
-      "link": "https://www.youtube.com/watch?v=HdKP63_HtOg&t=116s"
+      "link": "https://www.youtube.com/watch?v=HdKP63_HtOg"
     },
     "img_path":"./assets/artist-photos/jetpack.jpg"
   }
