@@ -39,7 +39,7 @@ function TopNavv() {
                 <nav className="nav-bar">
                     <div className='f nav-cont'>
                         { icons.ClickableLogo()}
-                        <div id="menu-icon" onClick={toggleMenu}>
+                        <div id="menu-icon" onClick={ toggleMenu }>
                             {(menuOpen) ? icons.ExitIcon() : icons.MenuIcon()}
                         </div>
                     </div>

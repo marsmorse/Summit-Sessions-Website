@@ -1,9 +1,38 @@
+
+
+p {
+  color:#C9C9C9;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 168.2%;
+  font-size: 1em;
+  
+}
+p { font-family: 'Poppins', sans-serif;}
+p { font-family: 'Roboto Mono', monospace;}
+p { font-family: 'Source Code Pro', monospace;}
+p { font-family: 'Open Sans', sans-serif;}
+
+/*p { font-family: 'Merriweather', serif;}
+/*p { font-family: 'Roboto', sans-serif;}
+ 
+
+/* 
+
+/*
+
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Roboto Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+
+
+*/
 /*
   Headers
 */
-p{
-  color:#C9C9C9;
-}
+
     h1 {
         font-size: 22px;
         line-height: 22px;
@@ -72,10 +101,3 @@ p{
     Text 
     font-family: 'Padauk', sans-serif;
   */
-  p {
-    font-family: Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 168.2%;
-  }
