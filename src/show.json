@@ -5,21 +5,21 @@
         "name":"Kaly Jay",
         "link": "https://www.youtube.com/watch?v=QMba3EM_02U"
       },
-      "img_path":"./assets/artist-photos/iansantillano.jpg"
+      "img_path":"./assets/artist-photos/KalyJay.jpg"
     },
     {
       "headliner": {
         "name":"Amon",
         "link": "https://www.youtube.com/watch?v=YClrEzeqGUU"
       },
-      "img_path":"./assets/artist-photos/iansantillano.jpg"
+      "img_path":"./assets/artist-photos/Amon.jpg"
     },
     {
       "headliner": {
         "name":"Cody Benjamin",
         "link": "https://www.youtube.com/watch?v=2CG-1iorO30"
       },
-      "img_path":"./assets/artist-photos/iansantillano.jpg"
+      "img_path":"./assets/artist-photos/CodyBenjamin.jpg"
     },
     {
       "headliner": {
@@ -96,7 +96,7 @@
       "name":"7Records",
       "link": "https://www.youtube.com/watch?v=kmb-xDbViGY"
     },
-    "img_path":"./assets/artist-photos/7records.jpeg"
+    "img_path":"./assets/artist-photos/7records.jpg"
   },
   {
     "headliner": {
@@ -159,7 +159,7 @@
       "name":"Rocky G x Nuglife",
       "link": "https://www.youtube.com/watch?v=XNlLnM9GhHA"
     },
-    "img_path":"./assets/artist-photos/rockynug.png"
+    "img_path":"./assets/artist-photos/rockynug.jpg"
   },
   {
     "headliner": {
@@ -167,6 +167,13 @@
       "link": "https://www.youtube.com/watch?v=tX9vznLPAqs"
     },
     "img_path":"./assets/artist-photos/damedrummer.jpg"
+  },
+  {
+    "headliner": {
+      "name":"Santos Soul",
+      "link": "https://www.youtube.com/watch?v=RU-TkoiEGKI"
+    },
+    "img_path":"./assets/artist-photos/SantosSoul.jpg"
   },
   {
     "headliner": {
@@ -181,20 +188,6 @@
       "link": "https://www.youtube.com/watch?v=oCCC3wNJBGc"
     },
     "img_path":"./assets/artist-photos/jordan.jpg"
-  },
-  {
-    "headliner": {
-      "name":"Inzerra",
-      "link": "https://www.youtube.com/watch?v=YY0NV3JJllg"
-    },
-    "img_path":"./assets/artist-photos/inzerra.jpg"
-  },
-  {
-    "headliner": {
-      "name":"Santos Soul",
-      "link": "https://www.youtube.com/watch?v=RU-TkoiEGKI"
-    },
-    "img_path":"./assets/artist-photos/SantosSoul.jpg"
   },
   {
     "headliner": {

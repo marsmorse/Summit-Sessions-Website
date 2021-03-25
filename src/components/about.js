@@ -25,6 +25,14 @@ class About extends React.Component {
                         <p className="mt-5">Sharif Hassan</p>
                     </div>
                     <div className="member-box">
+                        <NeonHeader content='Financial Manager' size='5'/>
+                        <p className="mt-5">Valerie Burleigh</p>
+                    </div>
+                    <div className="member-box">
+                        <NeonHeader content='Artist Operations' size='5'/>
+                        <p className="mt-5">Fairy Kwong</p>
+                    </div>
+                    <div className="member-box">
                         <NeonHeader content='Developer' size='5'/>
                         <p className="mt-5">Marshall Morse</p>
                     </div>

@@ -11,11 +11,12 @@ import ShowsPage from './pages/showspage';
 import AboutPage from './pages/aboutpage';
 
 function App() {
+    
     return(
         <div id='app'>
             
             <Route exact path="/"><HomePage/></Route>
-            <Route path="/Shows"><ShowsPage/></Route>
+            <Route path="/Sessions"><ShowsPage/></Route>
             <Route path="/About"><AboutPage/></Route>
             <Route path="/Contact"><Contact/><Footer/></Route>
             
