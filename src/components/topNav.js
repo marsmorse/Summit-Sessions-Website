@@ -47,7 +47,7 @@ function TopNavv() {
                 </nav>
                 <div className="mobile-menu" id={(menuOpen) ? 'show-off-screen': null}>
                     <LightBar width='100%' margins='mb-30'/>
-                    <NeonHeader click_behavior={ toggleMenu } size="link" link="/Shows" color={(page === '/Shows') ? "red": null} content="SHOWS"/>
+                    <NeonHeader click_behavior={ toggleMenu } size="link" link="/Sessions" color={(page === '/Sessions') ? "red": null} content="SESSIONS"/>
                     <LightBar width='100%' margins='mb-30 mt-30'/>
                     <NeonHeader click_behavior={ toggleMenu } size="link" link="/About" color={(page === '/About') ? "red": null} content="ABOUT"/>
                     <LightBar width='100%' margins='mb-30 mt-30'/>
@@ -92,77 +92,4 @@ function TopNavv() {
     return ((width < 1150)? <MobileNav/>:<DesktopNav/> );
 }
 
-function toggleMenu() {
-    this.setState((state) => { return {isMenuOpen: !state.isMenuOpen};});
-}
-
-/*
-class TopNav extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            isMenuOpen: false,
-            isDesktopView: ((window.innerWidth > 961) ? true: false),
-            page: 'Home'
-            
-        }
-        this.pages = ['About', 'Shows'];
-        this.DesktopMenu = this.DesktopMenu.bind(this);
-        this.updateNav = this.updateNav.bind(this);
-        this.MobileNav = this.MobileNav.bind(this);
-        this.updateState = this.updatePage.bind(this);
-    }
-
-
-    updatePage(v) {
-        this.setState({page: v})
-    }
-    
-    DesktopMenu() {
-        
-
-    }
-    MobileNav() {
-        return(
-            <section>
-                <nav className="nav-bar">
-                    <div className='f nav-cont'>
-                        <this.clickableLogo/>
-                        <div id="menu-icon" onClick={this.toggleMenu}>
-                            {(this.state.isMenuOpen) ? this.displayExitIcon() : this.displayMenuIcon()}
-                        </div>
-                    </div>
-                    <LightBar width='100%'/>
-                </nav>
-
-            </section>
-        )
-    }
-    render() {
-            
-        if (!this.state.isDesktopView){
-                return(
-                    <this.MobileNav/>
-                )
-        } else {
-
-            return(
-                <this.DesktopMenu/>
-            );
-        }
-    }
-    updateNav() {
-        if (window.innerWidth > 1150) {
-            this.setState(() => { return {isDesktopView: true};});
-        } else {
-            this.setState(() => { return {isDesktopView: false};});
-        }
-    }
-    componentDidMount() {
-        window.addEventListener('resize', this.updateNav);
-    }
-    componentWillUnmount() {
-        window.removeEventListener('resize', this.updateNav);
-    }
-}*/
 export default TopNavv;

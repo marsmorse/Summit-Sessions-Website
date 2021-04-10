@@ -1,5 +1,13 @@
 {"Shows":
   [
+    
+    {
+      "headliner": {
+        "name":"LOE Gino",
+        "link": "https://www.youtube.com/watch?v=gkAP1iBpPys"
+      },
+      "img_path":"./assets/artist-photos/loegino.jpg"
+    },
     {
       "headliner": {
         "name":"Kaly Jay",

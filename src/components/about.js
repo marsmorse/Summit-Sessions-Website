@@ -45,7 +45,7 @@ class About extends React.Component {
         return(
             <div className="about-container">
                 <div id="about">
-                    <img src="./assets/logo.png" alt="Summit Sessions Logo" width="80" height="42" className="mb-30"/>
+                    <img src="./assets/logo-md.png" alt="Summit Sessions Logo" className="mb-30"/>
                     <div className="about-section-cont">
                         <NeonHeader content='WHO WE ARE' size='2'/>
                         <div className="mt-30 about-p-cont">
@@ -66,7 +66,7 @@ class About extends React.Component {
                     <div className="about-section-cont">
                         <NeonHeader content='PARTNERS' size='2'/>
                         <div className="mt-30 about-p-cont">
-                            <a href="https://music.com/">
+                            <a href="https://music.com/story/search?q=summit%20sessions"  target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.09 37" width="64" height="37" >
                                     <path fill="#fff" fillRule="evenodd" stroke="#fff" d="M54.41,36.54H49.88a.78.78,0,0,1-.53-.2.72.72,0,0,1-.23-.55V18.24L46.15,32H43L40,18.24V35.79c0,.5-.24.75-.71.75H.51V.54H39.24c.37,0,.61.23.71.7l4.23,20,.36,1.5.4-1.5,4.18-20c.1-.47.34-.7.71-.7H63.59v36Zm.11-.83h8.25V1.36H54.52V35.71Zm-20-34.35H1.33V35.71H34.51V1.36Z">
                                     </path>
