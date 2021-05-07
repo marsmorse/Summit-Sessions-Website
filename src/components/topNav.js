@@ -29,7 +29,7 @@ function useCurrentWidth() {
 function TopNavv() {
     let width = useCurrentWidth();
     const [menuOpen, SetMenuOpen] = useState(false);
-    let pages = ['About', 'Sessions'];
+    let pages = ['About', 'Sessions', 'Contact'];
     const history = useHistory();
     let page = history.location.pathname;
     const toggleMenu = () => { SetMenuOpen(!menuOpen) };
@@ -51,7 +51,7 @@ function TopNavv() {
                     <LightBar width='100%' margins='mb-30 mt-30'/>
                     <NeonHeader click_behavior={ toggleMenu } size="link" link="/About" color={(page === '/About') ? "red": null} content="ABOUT"/>
                     <LightBar width='100%' margins='mb-30 mt-30'/>
-                    <NeonHeader click_behavior={ toggleMenu } size="a" link={config.mailLink} content="CONTACT"/>
+                    <NeonHeader click_behavior={ toggleMenu } size="link" link="/Contact" color={(page === '/Contact') ? "red": null} content="CONTACT"/>
                     <LightBar width='100%' margins='mb-30 mt-30'/>
                     <NeonHeader click_behavior={ toggleMenu } size="a" link={config.signupLink} content="SUBMIT"/>
                     <LightBar width='100%' margins='mt-30'/>            
@@ -74,10 +74,6 @@ function TopNavv() {
                             );
                     })
                 }
-                <div className="f">
-                    <LightBar/>
-                    <NeonHeader clickBehavior={() => {toggleMenu();}} size="a" link={config.mailLink} content="CONTACT"/>
-                </div>
                 <div className="f">
                     <LightBar/>
                     <NeonHeader clickBehavior={() => {toggleMenu();}} size="a" link={config.signupLink} content="SUBMIT"/>

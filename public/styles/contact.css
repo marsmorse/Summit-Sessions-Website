@@ -1,0 +1,111 @@
+  
+.formErrors{
+    color:red;
+}
+
+.input_label {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+.text-input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    padding: 0 15px 0 15px;
+    letter-spacing: .7px;
+    font-size: 16px;
+    height: 30px;
+    color: white;
+    border-color: azure;
+    border-bottom: 4;
+    background-color: #111111;
+        padding: 8px;
+        width: 100%;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid rgb(85, 85, 85);
+        border-left: 0;
+        transition: border-bottom-color .15s ease-in;
+}
+.text-input:focus {
+    height: 34px;
+    outline: 0;
+    border-bottom-color: #bdc3c7;
+  } 
+  .input_err {
+    border-color: rgb(233, 116, 116);
+    border-bottom:2px solid rgb(233, 116, 116);
+  }
+  .label_err {
+      color:rgb(233, 176, 176);
+  }
+.input-cont {
+    margin-top: 30px;
+}
+textarea {
+    width: 320px;
+    height: 200px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+textarea:focus {
+    outline: 0;
+    border-width: 1px;
+
+  }
+
+form {
+    margin-right: auto;
+    margin-left: auto;
+    max-width:  320px;
+}
+.form_cont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    display: block;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #111111;
+    border: 1px solid #af3535;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color .15s ease-in;
+    -webkit-transition: background-color .15s ease-in;
+    -moz-transition: background-color .15s ease-in;
+    -ms-transition: background-color .15s ease-in;
+    -o-transition: background-color .15s ease-in;
+}
+  button:focus:active {
+    background-color: darken(#af3535, 8%);
+    border: 0;
+  }
+  button:focus {
+    outline: 0;
+  }
+  button:hover {
+    background-color: #af3535;
+  }
+  .error_text {
+      margin-top: 10px;
+    color: rgb(233, 116, 116);
+    font-size: 11px;
+  }
+
+  .form-textarea {
+
+  }

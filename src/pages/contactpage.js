@@ -1,15 +1,18 @@
 import React from 'react';
-import About from '../components/about';
+import Contact from '../components/contact';
 import TopNav from '../components/topNav';
 import Footer from '../components/footer';
 
-function AboutPage() {
+
+
+function ContactPage() {
+
     return(
         <div>
             <TopNav/>
-            <About/>
+            <Contact/>
             <Footer/>
         </div>
     )
 }
-export default AboutPage
+export default ContactPage

@@ -45,6 +45,7 @@ class About extends React.Component {
         return(
             <div className="about-container">
                 <div id="about">
+                    
                     <img src="./assets/logo-md.png" alt="Summit Sessions Logo" className="mb-30"/>
                     <div className="about-section-cont">
                         <NeonHeader content='WHO WE ARE' size='2'/>

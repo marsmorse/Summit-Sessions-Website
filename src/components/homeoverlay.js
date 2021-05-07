@@ -27,7 +27,7 @@ function HomeOverlay() {
                 <div className="f home-nav">
                     <NeonHeader size="link" link="/Sessions" content="SESSIONS" margins="mr-20"/>
                     <NeonHeader size="link" link="/About" content="ABOUT" margins="mr-20"/>
-                    <NeonHeader size="a" link={config.mailLink} content="CONTACT" margins="mr-20"/>
+                    <NeonHeader size="link" link="/Contact" content="CONTACT" margins="mr-20"/>
                     <NeonHeader size="a" link={config.signupLink}  content="SUBMIT"/>
                 </div>
                 
