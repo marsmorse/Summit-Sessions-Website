@@ -1,6 +1,5 @@
 
 .overlay-cont {
-    position: absolute;
     z-index: 11;
     background-color: #111111b9;
     backdrop-filter: blur(2px);
@@ -33,4 +32,10 @@
 
 .home-nav {
     align-self: center;
+}
+
+@media (min-width:800px)  { 
+    .overlay-cont {
+        position: absolute;
+    }
 }

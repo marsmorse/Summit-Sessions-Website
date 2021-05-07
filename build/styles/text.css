@@ -8,11 +8,11 @@ p {
   font-size: 1em;
   
 }
-p { font-family: 'Poppins', sans-serif;}
-p { font-family: 'Roboto Mono', monospace;}
-p { font-family: 'Source Code Pro', monospace;}
-p { font-family: 'Open Sans', sans-serif;}
+p, textarea { font-family: 'Open Sans', sans-serif;}
 
+.biglink {
+  font-size: 20px;
+}
 /*p { font-family: 'Merriweather', serif;}
 /*p { font-family: 'Roboto', sans-serif;}
  
