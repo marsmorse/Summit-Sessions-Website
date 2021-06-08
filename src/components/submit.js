@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Input from './input';
 import NeonHeader from './text.js';
 import { Formik, Form, useField} from 'formik';
 import sendContactForm from '../controllers/contactController';

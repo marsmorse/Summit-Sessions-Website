@@ -30,7 +30,7 @@ class About extends React.Component {
                     </div>
                     <div className="member-box">
                         <NeonHeader content='Artist Operations' size='5'/>
-                        <p className="mt-5">Fairy Wong</p>
+                        <p className="mt-5">Fairy Hoang</p>
                     </div>
                     <div className="member-box">
                         <NeonHeader content='Developer' size='5'/>
