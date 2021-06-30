@@ -78,15 +78,15 @@ font-family: 'Source Code Pro', monospace;
 }
   .headerlayer2 {
     z-index: 2;
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px);
 }
   .headerlayer3 {
     z-index: 1;
     opacity: 60%;
-    filter: blur(8px);
-    -webkit-filter: blur(20px);
-  }
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
   
   .redl1 {
     color: #ebb2b2;

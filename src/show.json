@@ -1,6 +1,68 @@
 {"Shows":
   [
-    
+    {
+      "headliner": {
+        "name":"Don DiestrOc",
+        "link": "https://www.youtube.com/watch?v=d2lG8ryNl0w"
+      },
+      "img_path":"./assets/artist-photos/DonDiestrO.jpg"
+    },
+    {
+      "headliner": {
+        "name":"L I O",
+        "link": "https://www.youtube.com/watch?v=Tj0E3dkkhys"
+      },
+      "img_path":"./assets/artist-photos/loegino.jpg"
+    },
+    {
+      "headliner": {
+        "name":"Akaycentric",
+        "link": "https://www.youtube.com/watch?v=54xZwOX2prI"
+      },
+      "img_path":"./assets/artist-photos/akaycentric.jpg"
+    },
+    {
+      "headliner": {
+        "name":"Isaiah Mustafa",
+        "link": "https://www.youtube.com/watch?v=iR5EthTRHBk"
+      },
+      "img_path":"./assets/artist-photos/isaiah.jpg"
+    },
+    {
+      "headliner": {
+        "name":"Limbo",
+        "link": "https://www.youtube.com/watch?v=qT1GYSXzJVw"
+      },
+      "img_path":"./assets/artist-photos/limbo.jpg"
+    },
+    {
+      "headliner": {
+        "name":"Tsadig",
+        "link": "https://www.youtube.com/watch?v=cp6DQ1J8z3g"
+      },
+      "img_path":"./assets/artist-photos/tsadig.jpg"
+    },
+    {
+      "headliner": {
+        "name":"Jada Imani",
+        "link": "https://www.youtube.com/watch?v=qrVbIFLUTXI"
+      },
+      "img_path":"./assets/artist-photos/loegino.jpg"
+    },
+    {
+      "headliner": {
+        "name":"Wyatt Starks",
+        "link": "https://www.youtube.com/watch?v=brm9D5n8LIU"
+      },
+      "img_path":"./assets/artist-photos/wyattstarks.jpg"
+    },
+    {
+      "headliner": {
+        "name":"Sawhee",
+        "link": "https://www.youtube.com/watch?v=gM6Odnh8el0"
+      },
+      "img_path":"./assets/artist-photos/sawhee.jpg"
+    },
     {
       "headliner": {
         "name":"LOE Gino",
@@ -224,13 +286,6 @@
       "link": "https://www.youtube.com/watch?v=O7iHAijr4PI"
     },
     "img_path":"./assets/artist-photos/kid.jpg"
-  },
-  {
-    "headliner": {
-      "name":"Wyatt Starks",
-      "link": ""
-    },
-    "img_path":"./assets/artist-photos/wyattstarks.jpg"
   },
   {
     "headliner": {

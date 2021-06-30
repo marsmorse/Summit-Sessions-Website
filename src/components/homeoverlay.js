@@ -17,7 +17,7 @@ function HomeOverlay() {
                 <div className="f-center">
                     <NeonHeader content='Upcoming artist:' size='3' margins="mr-20"/>
                     <div className="inline-header-cont">
-                    <NeonHeader size="a" linkSize='biglink' link={config.newArtistLink} content="BACA"/>
+                    <NeonHeader size="a" linkSize='biglink' link={config.newArtistLink} content={config.newArtistName}/>
                     </div>
                 </div>
                 
