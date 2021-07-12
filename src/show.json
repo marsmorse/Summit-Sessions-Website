@@ -2,6 +2,13 @@
   [
     {
       "headliner": {
+        "name":"Afterthought",
+        "link": "https://www.youtube.com/watch?v=7hPdjaDjOLg"
+      },
+      "img_path":"./assets/artist-photos/afterthought2.jpg"
+    },
+    {
+      "headliner": {
         "name":"Don DiestrO",
         "link": "https://www.youtube.com/watch?v=d2lG8ryNl0w"
       },
@@ -12,7 +19,7 @@
         "name":"L I O",
         "link": "https://www.youtube.com/watch?v=Tj0E3dkkhys"
       },
-      "img_path":"./assets/artist-photos/loegino.jpg"
+      "img_path":"./assets/artist-photos/lio.jpg"
     },
     {
       "headliner": {
@@ -47,7 +54,7 @@
         "name":"Jada Imani",
         "link": "https://www.youtube.com/watch?v=qrVbIFLUTXI"
       },
-      "img_path":"./assets/artist-photos/loegino.jpg"
+      "img_path":"./assets/artist-photos/jada.jpg"
     },
     {
       "headliner": {
@@ -279,13 +286,6 @@
       "link": "https://www.youtube.com/watch?v=WXW2D6qHRWo"
     },
     "img_path":"./assets/artist-photos/toneoliver.jpg"
-  },
-  {
-    "headliner": {
-      "name":"K.I.D",
-      "link": "https://www.youtube.com/watch?v=O7iHAijr4PI"
-    },
-    "img_path":"./assets/artist-photos/kid.jpg"
   },
   {
     "headliner": {
